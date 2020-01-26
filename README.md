@@ -27,7 +27,7 @@ python main.py
 ## Testing
 
 ```
-python main.py --test
+python main.py --test --ckpt [pretrained weight]
 ```
 
 ## Citation
