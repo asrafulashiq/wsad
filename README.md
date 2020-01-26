@@ -1,6 +1,6 @@
 # Weakly Supervised Temporal Action Localization Using Deep Metric Learning
 
-This repository contains Pytorch code for our paper **[Weakly Supervised Temporal Action Localization Using Deep Metric Learning](https://arxiv.org/pdf/2001.07793.pdf)** accepted to WACV 2020.
+This repository contains Pytorch code for our paper **[Weakly Supervised Temporal Action Localization Using Deep Metric Learning](https://arxiv.org/pdf/2001.07793.pdf)** which has been accepted to WACV 2020.
 
 
 
