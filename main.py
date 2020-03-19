@@ -59,7 +59,7 @@ if __name__ == "__main__":
             itr, dataset, args, model, optimizer, logger, device,
             scheduler=lr_scheduler
         )
-        list_loss.append(_loss)
+        # list_loss.append(_loss)
         if itr % 100 == 0 and not itr == 0:
             model_state = model.state_dict()
             torch.save(
@@ -70,8 +70,8 @@ if __name__ == "__main__":
                 "./ckpt/" + args.model_name + ".pkl",
             )
 
-            lr_scheduler.step(np.mean(list_loss))
-            list_loss = []
+            # lr_scheduler.step(np.mean(list_loss))
+            # list_loss = []
 
         if itr % 100 == 0 and not itr == 0:
             print("Iter: {}".format(itr))

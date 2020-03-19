@@ -51,7 +51,7 @@ parser.add_argument("--seed", type=int, default=1,
 parser.add_argument(
     "--max-iter",
     type=int,
-    default=10001,
+    default=4401,
     help="maximum iteration to train (default: 50000)",
 )
 
